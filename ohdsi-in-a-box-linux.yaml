@@ -233,7 +233,7 @@ Resources:
               return failed({Error: "In-place updates not supported."});
             }
           };
-      Runtime: nodejs12.x
+      Runtime: nodejs18.x
       Timeout: 300
   LambdaExecutionRole:
     Type: AWS::IAM::Role
